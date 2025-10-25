@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BookMyShow",
+            "request": "launch",
+            "mainClass": "LLDQuestions.MyBookMyShow.BookMyShow",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.MyTicTacToe.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.TicTacToe.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "hello2",
+            "request": "launch",
+            "mainClass": "hello2",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloJavaFX",
+            "request": "launch",
+            "mainClass": "hello",
+            "vmArgs": "--module-path /Users/keshavkr/Downloads/javafx-sdk-25.0.1/lib --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}

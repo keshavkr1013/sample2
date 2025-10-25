@@ -1,0 +1,13 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/keshavkr/Downloads/javafx-sdk-25.0.1/lib/*.jar"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-24",
+            "path": "/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home",
+            "default": true
+        }
+    ]
+}
