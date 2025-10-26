@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Splitwise",
+            "request": "launch",
+            "mainClass": "LLDQuestions.MySplitwise.Splitwise",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
             "name": "BookMyShow",
             "request": "launch",
             "mainClass": "LLDQuestions.MyBookMyShow.BookMyShow",
