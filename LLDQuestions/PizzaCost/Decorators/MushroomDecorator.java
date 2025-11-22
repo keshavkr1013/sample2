@@ -7,6 +7,7 @@ public class MushroomDecorator implements PizzaDecorator{
     {
         this.basePizza = basePizza;
     }
+    @Override //override is not necessary but it is cleaner to make sure we are overriding not overloading method
     public int getCost()
     {
         return basePizza.getCost() + 10;

@@ -3,6 +3,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.ParkingLot.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.LoggerSystem.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.FactoryDesignPattern.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "CalculatePizzaCost",
+            "request": "launch",
+            "mainClass": "LLDQuestions.PizzaCost.CalculatePizzaCost",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
             "name": "Splitwise",
             "request": "launch",
             "mainClass": "LLDQuestions.MySplitwise.Splitwise",
