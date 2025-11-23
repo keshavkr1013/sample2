@@ -5,6 +5,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "LLDQuestions.VendingMachine.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "LLDQuestions.ParkingLot.Main",
             "projectName": "sample2_33237503"
         },
