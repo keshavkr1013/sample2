@@ -28,7 +28,8 @@ public class FirstRoomAvailable implements BookingStrategy{
                     if(isOverlap)
                         break;
                 }
-                return new Booking(room, meeting, BookingIdGenerator.getNextId());
+                if(!isOverlap)
+                    return new Booking(room, meeting, BookingIdGenerator.getNextId());
             }
         }
         return null;

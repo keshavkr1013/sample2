@@ -5,6 +5,41 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "LLDQuestions.MeetingScheduler.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.KeyValueStore.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.NotificationSystem.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.RateLimiter.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "LLDQuestions.ElevatorSystem.Main",
+            "projectName": "sample2_33237503"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "LLDQuestions.VendingMachine.Main",
             "projectName": "sample2_33237503"
         },

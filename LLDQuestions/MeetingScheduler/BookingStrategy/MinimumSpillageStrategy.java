@@ -23,14 +23,24 @@ public class MinimumSpillageStrategy implements BookingStrategy{
             }
             if(!meeting.endTime.isAfter(bookingsForRoom.get(0).meet.startTime))
             {
-                if(bestRoom==null)
+                Duration spillageDuration = Duration.between(meeting.endTime, bookingsForRoom.get(0).meet.startTime);
+                long minutes = spillageDuration.toMinutes();
+                if(minutes<minSpillageMinutes)
+                {
                     bestRoom = room;
+                    minSpillageMinutes = minutes;
+                }
                 continue;
             }
             if(!bookingsForRoom.get(bookingsForRoom.size()-1).meet.endTime.isAfter(meeting.startTime))
             {
-                if(bestRoom==null)
+                Duration spillageDuration = Duration.between(bookingsForRoom.get(bookingsForRoom.size()-1).meet.endTime, meeting.startTime);
+                long minutes = spillageDuration.toMinutes();
+                if(minutes<minSpillageMinutes)
+                {
                     bestRoom = room;
+                    minSpillageMinutes = minutes;
+                }
                 continue;
             }
             for(int i=0; i<bookingsForRoom.size()-1; i++)
